@@ -5,7 +5,9 @@ This program uses Dijkstra’s Algorithm to find the shortest paths from a given
 To run in terminal,
 
 make clean
+
 make all
+
 /CreateGraphAndTest Graph1.txt AdjacencyQueries.txt
 
 Dijkstra's Algorithm is implemented using a priority queue. The program prints the paths to every destination. For example, it can run the program having as input Graph2.txt starting from vertex 1 as seen with the command below,
